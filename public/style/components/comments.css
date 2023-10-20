@@ -1,0 +1,99 @@
+.comments h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.comment-stars{
+    display: flex;
+    gap: 10px;
+}
+
+.comment-stars img{
+    width: 30px;
+    filter: grayscale(100%);
+    z-index: 0;
+}
+
+.add-comment-form, .comments{
+    margin-top: 30px;
+}
+
+.add-comment-form textarea{
+    width: 100%;
+    resize: none;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.add-comment-form button{
+    width: 200px;
+    padding: 15px 20px;
+    border: none;
+    background: linear-gradient(90deg,#ff5c4d,#eb469f 26.56%,#8341ef 75%,#3f68f9);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.add-comment-form p{
+    margin: 10px 0;
+}
+
+.comments>p{
+    margin-top: 20px;
+}
+
+.active-star{
+    filter: grayscale(0%) !important;
+}
+
+.comment{
+    margin: 20px 0;
+    border: 1px solid #969696;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+}
+
+.comment a{
+    text-decoration: none;
+}
+
+.comment p{
+    margin: 15px 0;
+}
+
+.comment-menu{
+    width: 50%;
+    box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    padding: 20px;
+    top: 100%;
+    display: none;
+    z-index: 1;
+}
+
+.open-menu{
+    display: block !important;
+}
+
+.comment-menu-item h5{
+    margin-bottom: 18px;
+}
+
+.comment-menu-item fieldset button{
+    width: 20%;
+    padding: 10px ;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.comment-menu-item fieldset input{
+    background-color: transparent;
+}
